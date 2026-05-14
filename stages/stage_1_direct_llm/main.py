@@ -19,7 +19,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 
 from common.llm import get_llm
 
-QUESTION = "What are the legal consequences if a company breaches a non-disclosure agreement?"
+QUESTION = "Một công ty chia sẻ dữ liệu khách hàng mà không có sự đồng ý thì có thể chịu trách nhiệm pháp lý gì?"
 
 
 async def main():
